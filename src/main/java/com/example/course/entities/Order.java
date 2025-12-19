@@ -31,7 +31,6 @@ public class Order {
     private User client;
 
     public Order(){}
-
     public Order(Integer id, Instant moment, OrderStatus orderStatus, User client) {
         this.id = id;
         this.moment = moment;
