@@ -53,7 +53,6 @@ public class UserService {
         } catch (EntityNotFoundException e) {
             throw new ResourceNotFoundException(id);
         }
-
     }
 
     private void updateData(User entity, User user) {
